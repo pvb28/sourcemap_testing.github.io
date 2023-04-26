@@ -27,3 +27,11 @@ echo "case8 (incorrectmaplocation) min and map files are generated"
 uglifyjs case9withmap.js -c -o case9withmap.min.js --source-map "url='https://pvb28.github.io/sourcemap_testing.github.io/js/case9withmap.min.js.map'"
 
 echo "case 9 min and map files are generated"
+
+uglifyjs case10.js -c -o case10.min.js --source-map "url='https://pvb28.github.io/sourcemap_testing.github.io/js/case10.min.js.map'"
+
+echo "case 10.js min and map files are generated"
+
+uglifyjs case10nested.js -c -o case10nested.min.js --source-map "url='https://pvb28.github.io/sourcemap_testing.github.io/js/case10nested.min.js.map'"
+
+echo "case 10 nested js smin and map files are generated"
